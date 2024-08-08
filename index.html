@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codechef Website</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        .navbar-nav .dropdown-menu {
+            display: none;
+            position: absolute;
+        }
+
+        .navbar-nav .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(210, 216, 222);
+        }
+
+        .sec1 {
+            background-color: rgb(218, 231, 241);
+        }
+
+        .heading {
+            font-weight: 500;
+        }
+
+        .form-control {
+            max-width: 300px;
+        }
+
+        .btn-block {
+            width: 300px;
+        }
+
+        .same {
+            background-color: rgb(210, 216, 222);
+
+        }
+
+        .cols {
+            width: 50%;
+        }
+
+        .pc {
+            font-size: 22px;
+        }
+
+        .sec5 {
+            background-color: rgb(41, 47, 63);
+
+        }
+
+        .sec6 {
+            background-image: url("	https://cdn.codechef.com/images/home/gradient.svg");
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+        }
+
+        .sec10 {
+            background-image: url("/assets/group_picture.png");
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: contain;
+            background-color: #4079da;
+        }
+
+        .sec13 {
+            background-color: #f3eddf;
+        }
+
+        .footer {
+            background-color: rgb(41, 47, 63);
+        }
+
+        .boder {
+            border-left: 6px solid green;
+        }
+
+        .back {
+            position: relative;
+            left: -15px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/cc-logo.svg" alt="Logo" style="height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Courses
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Learn Python <span class="badge badge-secondary">10
+                                        courses</span></a>
+                                <a class="dropdown-item" href="#">Learn C++ <span class="badge badge-secondary">9
+                                        courses</span></a>
+                                <a class="dropdown-item" href="#">Learn C <span class="badge badge-secondary">9
+                                        courses</span></a>
+                                <a class="dropdown-item" href="#">Learn Java <span class="badge badge-secondary">9
+                                        courses</span></a>
+                                <a class="dropdown-item" href="#">Learn JavaScript <span class="badge badge-secondary">9
+                                        courses</span></a>
+                                <a class="dropdown-item" href="#">Data Structures and Algorithms <span
+                                        class="badge badge-secondary">21 topics</span></a>
+                                <a class="dropdown-item" href="#">Learn SQL <span class="badge badge-secondary">7
+                                        courses</span></a>
+                                <a class="dropdown-item" href="#">Web Development <span class="badge badge-secondary">5
+                                        courses</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Practice</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Compete</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#" style="color: darkblue; font-size: 18px;">Login</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="btn btn-primary" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Section#1  -->
+    <section class="sec1" style="height: 500px; margin-top: 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 ">
+                    <h1 class="display-4 pt-5 mt-4 heading">Start your <br>coding journey <br> today</h1>
+                    <p class="lead">Learn to code from scratch with job focussed <br> courses designed by experts.</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control mr-2" placeholder="Enter email" required>
+                        <button type="submit" class="btn btn-outline-primary">Start learning today</button>
+                    </form>
+                    <small class="form-text text-danger mt-2">Please enter an email address to continue.</small>
+                    <div class="mt-3">
+                        <button class="btn btn-danger btn-block"><i class="fab fa-google"></i> Sign up with
+                            Google</button>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <img src="/assets/bg1.svg" class="mt-5 pt-5" alt="landing page image" height="400px" width="100%">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Section#2  -->
+    <section class="sec2" style="height: 750px;">
+        <div class="container ">
+            <h3 class="mt-4">Learn to code</h3>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/p-logo.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn Python</h6>
+                    <p class="mt-4"><small>Get hands-on experience and master the basic syntax of Python to jumpstart
+                            your coding
+                            journey</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>114.4k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/j-logo.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn Java</h6>
+                    <p class="mt-4"><small>Get hands-on experience in Java programming with this interactive and
+                            practical course and everything in java </small></p>
+                    <div class="row">
+                        <div class="col-7"><small>77.6k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.7
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/cpp.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn C++</h6>
+                    <p class="mt-4"><small>Join this interactive and hands-on C++ course to master the basic syntax of
+                            the language and everything in c++.</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>46.5k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.7
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+
+            </div>
+            <div class="row mt-5 pt-2 justify-content-center">
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/js.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn Java Script</h6>
+                    <p class="mt-4"><small>Learn the language which powers millions of web application in the world.
+                            Start with learning basic constructs and get ready to solve</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>31.7k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/c.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn C</h6>
+                    <p class="mt-4"><small>Discover the fundamentals of programming with this interactive and practical
+                            C course. Master the basic syntax of the language and build a</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>51.0k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/c-sharp.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn C-Sharp</h6>
+                    <p class="mt-4"><small>Learn the basics of C# programming with ease in this interactive and
+                            practical course. Master the basic syntax of the language and build.</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>3.6k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Section#3  -->
+    <section class="sec3" style="height: 400px;">
+        <div class="container ">
+            <h3 class="mt-4">Data Structures</h3>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/linked-lists.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Linked Lists</h6>
+                    <p class="mt-4"><small>Linked lists are often used for their efficient insertion and deletion. It is
+                            also used in implementation of other data structures like Stack,Queue and</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>3.9k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.5
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/linked-lists.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Stacks and Queues</h6>
+                    <p class="mt-4"><small>A stack follows the Last-In, First-Out (LIFO) principle. It is similar to a
+                            physical stack of objects, like a stack of books, where you can only add or</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>1.8k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.0
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/linked-lists.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-4 p-1 same">Intermediate</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Matrices</h6>
+                    <p class="mt-4"><small>Learn and Practice problems on Matrices. Matrix is 2D data structures which
+                            can be used to represent grids, paths and everything in the Matrices etc..</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>500+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.8
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- section 4   -->
+    <section class="sec3 bg-white shadow" style="height: 500px;">
+        <div class="container ">
+            <h3 class="mt-4">Algorithms</h3>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/linked-lists.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Time complexity</h6>
+                    <p class="mt-4"><small>Learn all about time complexity in our beginner course and apply this
+                            knowledge to build efficient algorithms</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>4.0k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.7
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/linked-lists.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-4 p-1 same">Intermediate</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Greedy Algorithms</h6>
+                    <p class="mt-4"><small>Learn the concept of greedy algorithms and practice what you learnt in the
+                            different types of greedy problems</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>1.4k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.8
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/linked-lists.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Two pointers</h6>
+                    <p class="mt-4"><small>The Two Pointer technique is a widely used algorithmic approach in computer
+                            science and programming.</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>802+ learners</small></div>
+                        <div class="col-5 text-center"><small>5
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                <button class="btn btn-primary">Veiw All Courses</button>
+            </div>
+        </div>
+    </section>
+    <!-- section#5  -->
+    <section class=" sec5 mt-5 pt-5" style="height: 1000px;">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-5 mt-5">
+                    <h6 class="pt-3 pc">Learning courses</h6>
+                    <h2 class="pt-3">Practical, Job relevant topics</h2>
+                    <p class="pc pt-3">From Python to web development, you'll master concepts that employers demand,
+                        ensuring your smooth transition from beginner to professional.</p>
+                    <button class="btn btn-primary mt-2 p-3">Browse Catalog</button>
+                </div>
+                <div class="col-7 mt-4">
+                    <img class="mx-5" src="/assets/courses.png" alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-7 mt-4">
+                    <img class="" src="/assets/learn_img.png" alt="">
+                </div>
+                <div class="col-5 mt-5">
+                    <h6 class="pt-3 pc">In Browser IDE</h6>
+                    <h2 class="pt-3">Hands-on Learning Experience</h2>
+                    <p class="pc pt-3">Practice as you learn with our built-in IDE. Each lesson is designed to be
+                        followed by a coding exercise to apply the concepts and gain immediate feedback.</p>
+                    <button class="btn btn-primary mt-2 p-3">try a lesson</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section#06  -->
+    <section class="sec6" style="height: 500px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" style="margin-top: 180px;">
+                    <h1 class="mt-5">Over 2M Learners</h1>
+                    <p class="mt-3 pc">Our learners benefit from our rich repository of courses and practice problems
+                        every
+                        day.</p>
+                </div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section#07  -->
+    <section class="sec7" style="height: 400px;">
+        <div class="container ">
+            <h3 class="mt-4">Data Analytics</h3>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/sql.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn SQL</h6>
+                    <p class="mt-4"><small>Learn how to create, manipulate, and query databases with practical exercises
+                            and real-world examples with database management system</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>26.7k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/sql.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-4 p-1 same">Intermediate</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn Advanced SQL</h6>
+                    <p class="mt-4"><small>Learn advanced querying techniques like joins, sub queries and set operations
+                            to put yourself on the path to mastery in SQL and the sql queries</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>5.0k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.5
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/sql.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-4 p-1 same">Intermediate</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">SQL: 80 Topic wise Practice Queries</h6>
+                    <p class="mt-4"><small>Practice queries on Aggregates, Group by, Joins, Sub-queries and Case
+                            expressions. Solve over 80 SQL exercises using real life case studies</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>6.1k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- section#08  -->
+    <section class="sec8" style="height: 500px;">
+        <div class="container ">
+            <h3 class="mt-4">Web Development</h3>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/html.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn HTML / CSS</h6>
+                    <p class="mt-4"><small>Want to get started with web development? Start with this beginners course
+                            which teaches basic HTML and CSS from scratch and thier html codes</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>7.1k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.5
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/js.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-5 p-1 same">Beginner</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Learn Javascript</h6>
+                    <p class="mt-4"><small>Learn the language which powers millions of web application in the world.
+                            Start with learning basic constructs and get ready to solve</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>31.7k+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.6
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+                <div class="col-3 mx-4 rounded-lg bg-light shadow">
+                    <div class="row">
+                        <div class="col-6 mt-3"><img src="/assets/web-dev-js.svg" alt=""></div>
+                        <div class="col-6 px-1"><span class="ml-4 p-1 same">Intermediate</span></div>
+                    </div>
+
+                    <h6 class="text-primary mt-3">Web development using JavaScript</h6>
+                    <p class="mt-4"><small>Learn DOM events, how to handle user inputs and data structures, incorporate
+                            APIs and Sounds as you build your projects And works on the projects .</small></p>
+                    <div class="row">
+                        <div class="col-7"><small>500+ learners</small></div>
+                        <div class="col-5 text-center"><small>4.5
+                                <i class="fas fa-star text-primary"></i></small></div>
+                    </div>
+                    <button class="mt-2 mb-2 btn btn-outline-primary w-100">Veiw this Course</button>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                <button class="btn btn-primary">Veiw All Courses</button>
+            </div>
+        </div>
+    </section>
+    <!-- section#09  -->
+    <section class="mt-2" style="height: 600px;">
+        <div class="container">
+            <h1 class="text-center mt-5">Start from scratch, Build up expertise ✨</h1>
+            <p class="text-center pc">We are more than just course providers. We guide you through all four stages of
+                learning and evaluation.</p>
+            <div class="row">
+                <div class="col-6 mt-5 pt-5">
+                    <div class="boder">
+                        <h4 class=" "><i class="fas fa-check-circle back" style="color: green;"></i>Learn from courses
+                        </h4>
+                        <h4 class="mt-4 "><i class="fas fa-check-circle back" style="color: green;"></i>Practice daily
+                        </h4>
+                        <h4 class="mt-4"><i class="fas fa-check-circle back" style="color: green;"></i>Assess your
+                            progress</h4>
+                        <h4 class="mt-4"><i class="fas fa-check-circle back" style="color: green;"></i>Share with the
+                            world,
+                            repeat</h4>
+                    </div>
+                </div>
+                <div class="col-6 mt-5">
+                    <img src="/assets/learn-animation.gif" alt="" class="img" height="400px" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section#10  -->
+    <section class="sec10 " style="height: 400px;">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6 mt-5 pt-5">
+                    <h1>CodeChef for colleges</h1>
+                    <p class="pc">Teach industry relevant subjects like Data structures, Algorithms, Web development and
+                        SQL to your students.</p>
+                    <button class="btn btn-light text-primary px-4 py-2">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section#11  -->
+    <section class="sec11 mt-5" style="height: 170px; ">
+        <div class="container">
+            <h1 class="text-center">Write your first code with us. ✨</h1>
+            <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                <button class="btn btn-primary px-5 py-2 ">Start Learning Today</button>
+            </div>
+        </div>
+    </section>
+    <!-- section#12  -->
+    <section class="sec12">
+        <div class="container text-center">
+            <img src="/assets/learn_content_abs.png" alt="">
+        </div>
+    </section>
+    <!-- section#13  -->
+    <section class="sec13 mt-5" style="height: 370px;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6">
+                    <img src="/assets/pro_illustration.svg" alt="">
+                </div>
+                <div class="col-6 mt-5 pt-5">
+                    <h1>Get CodeChef Pro</h1>
+                    <p class="pc">Build real world projects based on what you learn with Pro subscription. Unlock
+                        special features</p>
+                    <button class="btn btn-secondary px-4 py-2 ">Go Pro</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer  -->
+    <section class="footer" style="height: 300px;">
+        <div class="container text-white">
+            <div class="row justify-content-around">
+                <div class="col-2 mt-5">
+                    <h6>Learning Courses</h6>
+                    <hr style="width: 50px;border-color: white; margin-right: 150px; ">
+                    <h6><a href="#" class="text-white">Learn Python</a></h6>
+                    <h6><a href="#" class="text-white">Learn JavaScript</a></h6>
+                    <h6><a href="#" class="text-white">Learn C++</a></h6>
+                    <h6><a href="#" class="text-white">Learn C</a></h6>
+                    <h6><a href="#" class="text-white">Learn Java</a></h6>
+                    <h6><a href="#" class="text-white">More learning courses</a></h6>
+                </div>
+                <div class="col-2 mt-5">
+                    <h6>Practice Paths</h6>
+                    <hr style="width: 50px;border-color: white; margin-right: 150px; ">
+                    <h6><a href="#" class="text-white">Practice Python</a></h6>
+                    <h6><a href="#" class="text-white">Practice JavaScript</a></h6>
+                    <h6><a href="#" class="text-white">Practice C++</a></h6>
+                    <h6><a href="#" class="text-white">Practice C</a></h6>
+                    <h6><a href="#" class="text-white">Practice Java</a></h6>
+                    <h6><a href="#" class="text-white">More practice paths</a></h6>
+                </div>
+                <div class="col-2 mt-5">
+                    <h6>Online Compilers</h6>
+                    <hr style="width: 50px;border-color: white; margin-right: 150px; ">
+                    <h6><a href="#" class="text-white">Python online compiler</a></h6>
+                    <h6><a href="#" class="text-white">C online compiler</a></h6>
+                    <h6><a href="#" class="text-white">C++ online compiler</a></h6>
+                    <h6><a href="#" class="text-white">Java online compiler</a></h6>
+                    <h6><a href="#" class="text-white">JavaScript online compiler</a></h6>
+                    <h6><a href="#" class="text-white">More compilers</a></h6>
+                </div>
+                <div class="col-2 mt-5">
+                    <h6>Miscellaneous</h6>
+                    <hr style="width: 50px;border-color: white; margin-right: 150px; ">
+                    <h6><a href="#" class="text-white">Blogs</a></h6>
+                    <h6><a href="#" class="text-white">CodeChef For Colleges</a></h6>
+                    <h6><a href="#" class="text-white">Coding Contests</a></h6>
+                    <h6><a href="#" class="text-white">Contact Us</a></h6>
+                    <h6><a href="#" class="text-white">Privacy Policy</a></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section#14  -->
+    <section>
+        <div class="container">
+            <div class="row" style="height: 36px;">
+                <div class="col-4 mt-2">www.codechef.com Developed By Hami</div>
+                <div class="col-3"></div>
+                <div class="col-5 mt-2">Follow Us
+                    <i class="fab fa-facebook-f mx-2 btn btn-primary" style="color: #051c4e;"></i>
+                    <i class="fab fa-youtube mx-2 btn btn-primary" style="color: #d40000 ;"></i>
+                    <i class="fab fa-instagram mx-2 btn btn-primary" style="color: #e6004c;"></i>
+                    <i class="fab fa-twitter mx-2 btn btn-primary" style="color: #010304;"></i>
+                    <i class="fab fa-linkedin-in mx-2 btn btn-primary " style="color: #000000;"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
